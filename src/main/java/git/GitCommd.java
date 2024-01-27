@@ -6,6 +6,7 @@ public class GitCommd {
 		// TODO Auto-generated method stub
 
 		System.out.println("git command");
+		System.out.println("git 2 command");
 	}
 
 }
