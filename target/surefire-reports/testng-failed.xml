@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="qa.testcomponents.Listerners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="ErrorHanding(failed)" verbose="0">
+    <classes>
+      <class name="qa.tests.TC_02_VerifyErrorDisplayed">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginErrorMessage"/>
+        </methods>
+      </class> <!-- qa.tests.TC_02_VerifyErrorDisplayed -->
+    </classes>
+  </test> <!-- ErrorHanding(failed) -->
+</suite> <!-- Failed suite [Suite] -->
